@@ -1,0 +1,18 @@
+nav {
+    background-color: $background-menu;
+}
+
+input {
+    background-color: aquamarine;
+    border: 0;
+    border-bottom: 2px solid #000;
+    border-radius: 0px;
+    color: #000;
+    padding: 5px 0;
+    width: 220px;
+    transition: width 0.7s;
+
+    &:focus {
+        width: 350px;
+    }
+}
